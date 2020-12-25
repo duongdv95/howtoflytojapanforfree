@@ -93,8 +93,19 @@ html {
     color: #4B9EF4;
   }
   hr {
-    border-top: 4px solid #4B9EF4;
+    border-top: 4px solid#1AC4C1;
   }
-  font-weight: 900;
-  color: #4B9EF4;
+  font-weight: 700;
+  color: white;
+
+  .denial {
+    color: $danger;
+  }
+  .history {
+    color: #4B9EF4;
+  }
+
+  .may, .august, .november, .december {
+    color: #4B9EF4;
+  }
 }

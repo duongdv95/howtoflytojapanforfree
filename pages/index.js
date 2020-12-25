@@ -157,24 +157,92 @@ export default function Home() {
 
       <section id="strategy" className="section hero is-fullheight">
         <div className="columns">
-          <div className="column is-half container">
+          <div className="column is-one-third container">
             <h1 className="title is-1 has-text-centered">STRATEGY FOR APPLYING</h1>
             <hr/>
-            <h1 className="subtitle has-text-centered is-5">YOU WILL NOT BE APPROVED IF YOU HAVE 5+ NEWLY OPENED CREDIT CARDS IN THE PAST 2 YEARS</h1>
-            <p className = "content">
-              Ideally, you want to have at least ONE year of credit history before applying and a decent credit score.
+            <h1 className="subtitle has-text-centered is-3"></h1>
+            <div className="information">
+              <div>
+                <h1 className="title is-4">
+                  Credit History
+                </h1>
+                <p>
+                  5+ newly opened credit card accounts in the past 2 years <span className="denial">will result in a denial.</span>
+                </p>
+                <br/>
+                <p>
+                  You want to have at least <span className="history">ONE year of credit history</span> before applying and a good credit score.
+                </p>
+              </div>
               <br/>
-              I recommend applying every 3 months... IDEAL TIME FRAME
-              May - Apply for Chase Freedom
-              August - Apply for Chase Freedom Flex
-              November - Apply for Chase Sapphire Preferred/Reserve
-              December/January - Hopefully by then you will have accumulated enough points to book a flight to Japan for April (cherry blossom season post-covid) and plan out your trip!
-              <br/>
-              If you are not automatically approved, check the approval guide (make this a link to https://imgur.com/a/oXlPW). Sometimes you just need to call 1-888-270-2127 (recon line) to verify your identity.
-              <br/>
-              *Tip you can get a card expedited this way, just say you have a major purchase and you would need the card ASAP
-            </p>
+              <div className="content">
+                <h1 className="title is-4">
+                  Recommended Application Rate
+                </h1>
+                <p>
+                  I recommend applying every 3 months.
+                </p>
+                <ul>
+                  <li className="may">
+                    May - <a href="/">Apply for Chase Freedom Unlimited</a>
+                  </li>
+                  <li className="august">
+                    August - <a href="/">Apply for Chase Freedom Flex</a>
+                  </li>
+                  <li className="november">
+                    November - <a href="/">Apply for Chase Sapphire Preferred</a>
+                  </li>
+                </ul>
+                <p>
+                  If everything is going according to plan.. You will have enough points to book a flight to Japan for April (cherry blossom season post-covid) and plan out your trip!
+                </p>
+              </div>
+              <div className="content">
+                <h1 className="title is-4">
+                  Not automatically approved?
+                </h1>
+                <p>
+                  If you are not automatically approved, check out the <a href="https://imgur.com/a/oXlPW" target="_blank">approval guide.</a> 
+                </p>
+                <p>
+                  Sometimes you just need to call 1-888-270-2127 (recon line) to verify your identity or push your case.
+                </p>
+                <p>
+                  *Tip you can get a card expedited this way, just say you have a major purchase and you would need the card ASAP
+                </p>
+                <p>
+                  As always, do your research!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="bookflight" className="section hero is-fullheight">
+        <div className="columns">
+          <div className="column is-one-third container">
+            <h1 className="title is-1 has-text-centered">COMBINE POINTS &#38; BOOK YOUR FLIGHT</h1>
+            <hr/>
+            <div className="content"> 
+              <ol>
+                <li>
+                  Log into your chase account.
+                </li>
+                <li>
+                  Go to your Ultimate Rewards Portal.
+                </li>
+                <li>
+                  Click Combine Points and transfer them to your Chase Sapphire Preferred.
+                </li>
+                <li>
+                  Book your flight!
+                </li>
+              </ol>
+            </div>
+            <p>
+              You should have 100,000+ ($1000) points + additional points from casbhack.
+            </p>
           </div>
         </div>
       </section>
