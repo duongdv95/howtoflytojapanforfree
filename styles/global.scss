@@ -1,0 +1,100 @@
+$pink: #ffb7c5;
+
+@import "bulma/bulma";
+
+html {
+  background-color:#f2f2f2;
+}
+.has-bg-img { 
+  background: url('../public/hero-image.jpg') bottom center; 
+  background-size:cover; 
+}
+
+.hero-title {
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#landing {
+  a {
+    color: white;
+  }
+}
+#introduction {
+  a, h5 {
+    color: white;
+  }
+
+  .card li {
+    color: white;
+    font-weight: 900;
+  }
+
+  h1 {
+    color: $pink;
+  }
+  h6 {
+    margin-bottom: 0;
+  }
+  hr {
+    border-top: 4px solid $primary;
+  }
+  .description {
+    color: $primary;
+  }
+  img {
+    min-width: 75%;
+  }
+  .card {
+    height: 100%;
+  }
+  .card-image {
+    justify-content: center;
+  }
+  .is-background-green {
+    background-color:#6FCC77;
+  } 
+  .is-background-blue {
+    background-color:#00448F;
+  } 
+  .is-background-red {
+    background-color:#F17987;
+  } 
+  .rebut {
+    color: red;
+  }
+  .response {
+    color: green;
+  }
+}
+
+#everydayspend {
+  background-color: #B7E0D7;
+  color: #6D423C;
+  hr {
+    border-top: 4px solid#ECE1C9;
+  }
+  h1 {
+    color: #6D423C;
+  }
+  font-weight: 900;
+  h4 {
+    color: #E08174;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+#strategy {
+  background-color: #FFBB01;
+  h1 {
+    color: #4B9EF4;
+  }
+  hr {
+    border-top: 4px solid #4B9EF4;
+  }
+  font-weight: 900;
+  color: #4B9EF4;
+}
