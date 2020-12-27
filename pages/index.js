@@ -304,6 +304,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>
+            <strong>Website</strong> built by{" "}
+            <a href="https://github.com/duongdv95" target="_blank">
+              Daniel Duong
+            </a>
+            . Built with React and deployed to AWS S3.
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
