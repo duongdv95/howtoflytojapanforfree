@@ -12,13 +12,26 @@ export default function Home() {
           crossOrigin="anonymous"
         ></script>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="description"
+          content="Learn how to utilize 3 Chase Credit Cards to earn points to fly to Japan for free"
+        />
+        <meta property="og:title" content="How To Fly To Japan For Free"></meta>
+        <meta
+          property="og:description"
+          content="Learn how to utilize 3 Chase Credit Cards to earn points to fly to Japan for free"
+        ></meta>
+        <meta
+          property="og:image"
+          content="https://d1t8u1sohsagln.cloudfront.net/og-image.png"
+        ></meta>
       </Head>
 
       <section id="landing" className="hero is-fullheight has-bg-img">
         <div className="hero-body container">
           <div className="has-text-centered">
             <h1 className="has-text-white hero-title">
-              FLYYY TO JAPAN
+              FLY TO JAPAN
               <br />
               FOR FREE
             </h1>
