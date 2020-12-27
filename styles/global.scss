@@ -3,11 +3,11 @@ $pink: #ffb7c5;
 @import "bulma/bulma";
 
 html {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
-.has-bg-img { 
-  background: url('../public/hero-image.jpg') bottom center; 
-  background-size:cover; 
+.has-bg-img {
+  background: url("../public/hero-image.jpg") bottom center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -21,7 +21,8 @@ html {
   }
 }
 #introduction {
-  a, h5 {
+  a,
+  h5 {
     color: white;
   }
 
@@ -33,6 +34,7 @@ html {
   h1 {
     color: $pink;
   }
+
   h6 {
     margin-bottom: 0;
   }
@@ -52,14 +54,14 @@ html {
     justify-content: center;
   }
   .is-background-green {
-    background-color:#6FCC77;
-  } 
+    background-color: #6fcc77;
+  }
   .is-background-blue {
-    background-color:#00448F;
-  } 
+    background-color: #00448f;
+  }
   .is-background-red {
-    background-color:#F17987;
-  } 
+    background-color: #f17987;
+  }
   .rebut {
     color: red;
   }
@@ -69,17 +71,17 @@ html {
 }
 
 #everydayspend {
-  background-color: #B7E0D7;
-  color: #6D423C;
+  background-color: #b7e0d7;
+  color: #6d423c;
   hr {
     border-top: 4px solid#ECE1C9;
   }
   h1 {
-    color: #6D423C;
+    color: #6d423c;
   }
   font-weight: 900;
   h4 {
-    color: #E08174;
+    color: #e08174;
   }
 
   a {
@@ -88,24 +90,54 @@ html {
 }
 
 #strategy {
-  background-color: #FFBB01;
+  $header: #89023e;
+  $hr: #ea638c;
+  $bg: #ffd9da;
+  $text: #1b2021;
+
+  background-color: $bg;
   h1 {
-    color: #4B9EF4;
+    color: $header;
   }
   hr {
-    border-top: 4px solid#1AC4C1;
+    border-top: 4px solid $hr;
+  }
+
+  font-weight: 700;
+  color: $text;
+  a {
+    color: white;
+  }
+  .denial {
+    color: red;
+  }
+  .history,
+  .credit {
+    color: #0077b6;
+    text-decoration: underline;
+  }
+
+  .month {
+    color: #06d6a0;
+  }
+}
+
+#bookflight {
+  $bg: #073b4c;
+  $text: white;
+  background-color: $bg;
+  color: $text;
+  h1 {
+    color: #ffd166;
+  }
+  hr {
+    border-top: 4px solid #ef476f;
+  }
+  span {
+    color: #ffd166;
   }
   font-weight: 700;
-  color: white;
-
-  .denial {
-    color: $danger;
-  }
-  .history {
-    color: #4B9EF4;
-  }
-
-  .may, .august, .november, .december {
-    color: #4B9EF4;
+  .totalpoints {
+    color: #ef476f;
   }
 }

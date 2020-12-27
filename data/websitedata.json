@@ -1,0 +1,43 @@
+{
+  "chaseFreedomUnlimitedReferralLink": "https://www.referyourchasecard.com/18f/4XDJBLNMRU",
+  "chaseFreedomFlexReferralLink": "https://www.referyourchasecard.com/18f/4XDJBLNMRU",
+  "chaseSapphirePreferredReferralLink": "https://www.referyourchasecard.com/6a/JCZMHEGVKL",
+  "creditCardInfoArray": [
+    {
+      "image": "/cfu.png",
+      "title": "Chase Freedom Unlimited",
+      "benefits": [
+        "20K points ($200) sign-up bonus /w $500 spend",
+        "1.5% cashback on everything + other cashback categories",
+        "No annual fee"
+      ],
+      "referralLink": "https://www.referyourchasecard.com/18f/4XDJBLNMRU",
+      "color": "red",
+      "expires": "6 months from 12/27/2020"
+    },
+    {
+      "image": "/cf.png",
+      "title": "Chase Freedom Flex",
+      "benefits": [
+        "20K points ($200) sign-up bonus /w $500 spend",
+        "5% cashback on rotating categories + other cashback categories",
+        "No annual fee"
+      ],
+      "referralLink": "https://www.referyourchasecard.com/18f/4XDJBLNMRU",
+      "color": "green",
+      "expires": "6 months from 12/27/2020"
+    },
+    {
+      "image": "/csp.png",
+      "title": "Chase Sapphire Preferred",
+      "benefits": [
+        "60K points ($600) sign-up bonus /w $4000 spend",
+        "2% cashback on dining/travel",
+        "$95 annual fee with additonal perks (travel + shopping protections)"
+      ],
+      "referralLink": "https://www.referyourchasecard.com/6a/JCZMHEGVKL",
+      "color": "blue",
+      "expires": "6 months from 12/27/2020"
+    }
+  ]
+}
