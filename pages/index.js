@@ -186,19 +186,22 @@ export default function Home() {
                 <ul>
                   <li className="month">
                     May -{" "}
-                    <a href={data.chaseFreedomFlexReferralLink}>
+                    <a href={data.chaseFreedomFlexReferralLink} target="_blank">
                       Apply for Chase Freedom Unlimited
                     </a>
                   </li>
                   <li className="month">
                     August -{" "}
-                    <a href={data.chaseFreedomFlexReferralLink}>
+                    <a href={data.chaseFreedomFlexReferralLink} target="_blank">
                       Apply for Chase Freedom Flex
                     </a>
                   </li>
                   <li className="month">
                     November -{" "}
-                    <a href={data.chaseSapphirePreferredReferralLink}>
+                    <a
+                      href={data.chaseSapphirePreferredReferralLink}
+                      target="_blank"
+                    >
                       Apply for Chase Sapphire Preferred
                     </a>
                   </li>
@@ -279,8 +282,8 @@ export default function Home() {
             <div className="content">
               <ul>
                 <li>
-                  ✈️ Flights - 64k points could pay for $800 plane ticket! $640
-                  x 1.25 = $800
+                  ✈️ Flights - 64k points could pay for $800 plane ticket! ($640
+                  x 1.25 = $800)
                 </li>
                 <li>🏨 Hotels &#38; Hostels</li>
               </ul>
