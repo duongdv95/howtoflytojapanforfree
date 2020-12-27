@@ -18,7 +18,7 @@ export default function Home() {
         <div className="hero-body container">
           <div className="has-text-centered">
             <h1 className="has-text-white hero-title">
-              FLY TO JAPAN
+              FLYY TO JAPAN
               <br />
               FOR FREE
             </h1>
