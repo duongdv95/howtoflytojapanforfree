@@ -60,10 +60,10 @@ export default function Home() {
             <h1 className="title has-text-centered is-3">Here's the math 🤓</h1>
             <span></span>
             <h1 className="subtitle has-text-centered is-4">
-              <mark>$200 + $200 + $600 = $1000</mark>
+              <mark>$200 + $200 + $1000 = $1400</mark>
             </h1>
             <h1 className="subtitle has-text-centered is-4 description">
-              $1000 x 1.25 (Sapphire Preferred multiplier) = $1250 when redeemed
+              $1400 x 1.25 (Sapphire Preferred multiplier) = $1750 when redeemed
               for travel ✈️
             </h1>
             <h1 className="subtitle has-text-centered is-4 rebut">
